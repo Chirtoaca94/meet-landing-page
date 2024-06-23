@@ -13,7 +13,7 @@ Users should be able to:
 
 ![alt text](image.png)
 
-- Live Site URL: 
+- Live Site URL: https://meet-landing-page-gamma-jade.vercel.app/
 
 ### Built with
 
