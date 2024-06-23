@@ -95,10 +95,27 @@ button {
 	position: relative;
 }
 
-.download a {
+.version {
 	padding-left: 0.25rem;
 	color: #8fe3f9;
-	text-decoration: none;
+}
+
+.version-two {
+	padding-left: 0.25rem;
+	color: #d9b8ff;
+}
+
+.download:hover,
+.download:hover .version {
+	color: #ffffff;
+	background-color: #8fe3f9;
+	transition: 0.3s;
+}
+
+.download:active {
+	color: #ffffff;
+	background-color: #8fe3f9;
+	translate: 2px 2px;
 }
 
 .info {
@@ -111,6 +128,13 @@ button {
 	color: #ffffff;
 	font-weight: 600;
 	margin-top: 1rem;
+}
+
+.info:hover,
+.info:hover .version-two {
+	background-color: #d9b8ff;
+	color: #ffffff;
+	transition: 0.3s;
 }
 
 .page {
